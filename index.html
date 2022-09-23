@@ -15,7 +15,7 @@
 	<meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
 	<meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
 	<title>Главная страница сайта</title>
-	<link rel="shortcut icon" href="/images/favicons/favicon.ico">
+	<link rel="shortcut icon" href="./images/favicons/favicon.ico">
 	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="48x48" href="./images/favicons/favicon-48x48.png">
@@ -73,11 +73,11 @@
 									<svg class="icon icon-tiktok tiktok--tiny">
 										<use xlink:href="./images/sprite.svg#tiktok"></use>
 									</svg></a></div>
-							<button class="header__auth btn icon-btn d-flex">
+							<a class="header__auth btn icon-btn d-flex" href="./login.html">
 								<svg class="icon icon-user-circle ">
 									<use xlink:href="./images/sprite.svg#user-circle"></use>
 								</svg><span>Войти</span>
-							</button>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -102,7 +102,7 @@
 						</div>
 					</div>
 					<div class="right d-flex">
-						<div class="header__call-request d-flex"><a href="call:+79272367527">+7 927 236-75-27</a><span
+						<div class="header__call-request d-flex"><a href="tel:+79272367527">+7 927 236-75-27</a><span
 								role="button">Заказать звонок</span></div>
 						<div class="header__icon-btn-group d-flex">
 							<button class="header__icon-btn btn icon-btn">
@@ -158,54 +158,34 @@
 									</div>
 									<div class="menu__sub-container container-fluid">
 										<li class="menu__link menu__link-arrow">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Очень длинное
-													название</span></div>
+											<div class="menu__link-inner"><img src="./images//category_2.png" alt=""><span>Афганские
+													казаны</span></div>
 										</li>
 										<ul class="menu__sub-categories">
 											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+													<div class="menu__link-inner"><span>Популярные объемы</span></div>
 												</a></li>
 											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары1</span></div>
+													<div class="menu__link-inner"><span>Двухцветные афганские казаны</span></div>
 												</a></li>
 											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары2</span></div>
+													<div class="menu__link-inner"><span>Черные афганские казаны</span></div>
 												</a></li>
 											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары3</span></div>
+													<div class="menu__link-inner"><span>Никелированные афганские казаны</span></div>
 												</a></li>
 											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары4</span></div>
+													<div class="menu__link-inner"><span>Ремкомплект для афганских казанов</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Аксессуары для афганских казанов</span></div>
 												</a></li>
 										</ul>
 									</div>
 									<div class="menu__sub-container container-fluid">
 										<li class="menu__link menu__link-arrow">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные2</span></div>
-										</li>
-										<ul class="menu__sub-categories">
-											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
-												</a></li>
-											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
-												</a></li>
-											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
-												</a></li>
-											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
-												</a></li>
-											<li><a class="menu__sub-link" href="#">
-													<div class="menu__link-inner"><span>Тестовые товары</span></div>
-												</a></li>
-										</ul>
-									</div>
-									<div class="menu__sub-container container-fluid">
-										<li class="menu__link menu__link-arrow">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные3</span></div>
+											<div class="menu__link-inner"><img src="./images//category_3.png" alt=""><span>Печки,
+													треноги</span></div>
 										</li>
 										<ul class="menu__sub-categories">
 											<li><a class="menu__sub-link" href="#">
@@ -227,8 +207,7 @@
 									</div>
 									<div class="menu__sub-container container-fluid">
 										<li class="menu__link menu__link-arrow">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные4</span></div>
+											<div class="menu__link-inner"><img src="./images//category_4.png" alt=""><span>Посуда</span></div>
 										</li>
 										<ul class="menu__sub-categories">
 											<li><a class="menu__sub-link" href="#">
@@ -248,22 +227,9 @@
 												</a></li>
 										</ul>
 									</div>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные5</span></div>
-										</a></li>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные6</span></div>
-										</a></li>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные7</span></div>
-										</a></li>
 									<div class="menu__sub-container container-fluid">
 										<li class="menu__link menu__link-arrow">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные8</span></div>
+											<div class="menu__link-inner"><img src="./images//category_5.png" alt=""><span>Ножи</span></div>
 										</li>
 										<ul class="menu__sub-categories">
 											<li><a class="menu__sub-link" href="#">
@@ -283,18 +249,193 @@
 												</a></li>
 										</ul>
 									</div>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные9</span></div>
-										</a></li>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные10</span></div>
-										</a></li>
-									<li><a class="menu__link" href="#">
-											<div class="menu__link-inner"><img src="./images//category_1.png" alt=""><span>Казаны
-													чугунные11</span></div>
-										</a></li>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_6.png" alt=""><span>Мангалы</span>
+												</div>
+											</a></li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Популярные объемы</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Двухцветные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Черные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Никелированные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Ремкомплект для афганских казанов</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Аксессуары для афганских казанов</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link menu__link-arrow"" href=" #">
+												<div class="menu__link-inner"><img src="./images//category_7.png" alt=""><span>Решетки для
+														мяса</span></div>
+											</a></li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Популярные объемы</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Двухцветные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Черные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Никелированные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Ремкомплект для афганских казанов</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Аксессуары для афганских казанов</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link menu__link-arrow"" href=" #">
+												<div class="menu__link-inner"><img src="./images//category_8.png" alt=""><span>Саджи</span>
+												</div>
+											</a></li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Популярные объемы</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Двухцветные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Черные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Никелированные афганские казаны</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Ремкомплект для афганских казанов</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Аксессуары для афганских казанов</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li class="menu__link menu__link-arrow">
+											<div class="menu__link-inner"><img src="./images//category_9.png" alt=""><span>Самовары,
+													чайники</span></div>
+										</li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_10.png" alt=""><span>Ручные
+														соковыжималки</span></div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link menu__link-arrow" href="#">
+												<div class="menu__link-inner"><img src="./images//category_11.png" alt=""><span>Чугунная
+														посуда</span></div>
+											</a></li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link menu__link-arrow" href="#">
+												<div class="menu__link-inner"><img src="./images//category_12.png" alt=""><span>Подарочные
+														наборы</span></div>
+											</a></li>
+										<ul class="menu__sub-categories">
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+											<li><a class="menu__sub-link" href="#">
+													<div class="menu__link-inner"><span>Тестовые товары</span></div>
+												</a></li>
+										</ul>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_13.png" alt=""><span>Шампуры</span>
+												</div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_14.png" alt=""><span>Продукты</span>
+												</div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_15.png"
+														alt=""><span>Аксессуары</span></div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//category_16.png" alt=""><span>Комплекты</span>
+												</div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//sale.png" alt=""><span>Распродажа</span></div>
+											</a></li>
+									</div>
+									<div class="menu__sub-container container-fluid">
+										<li><a class="menu__link" href="#">
+												<div class="menu__link-inner"><img src="./images//new.png" alt=""><span>Новинки</span></div>
+											</a></li>
+									</div>
 								</ul>
 							</div>
 							<div class="header__nav-bottom">
@@ -351,28 +492,32 @@
 								<div class="main-slider__content-container">
 									<div class="main-slider__content-type">Видео</div>
 									<div class="main-slider__content-title">Обжиг казана льняным маслом. Все тонкости</div>
-									<button class="main-slider__content-button" role="button">Посмотреть</button>
+									<button class="main-slider__content-button" role="button"><a class="main-slider__content-youtube"
+											href="https://www.youtube.com/watch?v=XYUjosdhR2g">Посмотреть</a></button>
 								</div>
 							</div>
 							<div class="splide__slide"><img class="main-slider__background" src="./images/rectangle.png" alt="">
 								<div class="main-slider__content-container">
 									<div class="main-slider__content-type">Видео</div>
 									<div class="main-slider__content-title">Обжиг казана льняным маслом. Все тонкости 2</div>
-									<button class="main-slider__content-button" role="button">Посмотреть</button>
+									<button class="main-slider__content-button" role="button"><a class="main-slider__content-youtube"
+											href="https://www.youtube.com/watch?v=XYUjosdhR2g">Посмотреть</a></button>
 								</div>
 							</div>
 							<div class="splide__slide"><img class="main-slider__background" src="./images/rectangle.png" alt="">
 								<div class="main-slider__content-container">
 									<div class="main-slider__content-type">Видео</div>
 									<div class="main-slider__content-title">Обжиг казана льняным маслом. Все тонкости 3</div>
-									<button class="main-slider__content-button" role="button">Посмотреть</button>
+									<button class="main-slider__content-button" role="button"><a class="main-slider__content-youtube"
+											href="https://www.youtube.com/watch?v=XYUjosdhR2g">Посмотреть</a></button>
 								</div>
 							</div>
 							<div class="splide__slide"><img class="main-slider__background" src="./images/rectangle.png" alt="">
 								<div class="main-slider__content-container">
 									<div class="main-slider__content-type">Видео</div>
 									<div class="main-slider__content-title">Обжиг казана льняным маслом. Все тонкости 4</div>
-									<button class="main-slider__content-button" role="button">Посмотреть</button>
+									<button class="main-slider__content-button" role="button"><a class="main-slider__content-youtube"
+											href="https://www.youtube.com/watch?v=XYUjosdhR2g">Посмотреть</a></button>
 								</div>
 							</div>
 						</div>
@@ -1910,6 +2055,10 @@
 					<div class="section__content">
 						<div class="youtube-video__preview preview youtube-video__preview--big"><img class="preview__img"
 								src="./images/preview-big.png" alt="">
+							<iframe style='display: none;' width="1519" height="585" src="https://www.youtube.com/embed/pzzIwYL2MbQ"
+								title="Обзор узбекского ПЧАКА ножа. Проверяем остроту пчака. Смотрим разные рукояти." frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
 							<div class="preview__title"><span>Обзор узбекского ПЧАКА ножа. Проверяем остроту пчака. Смотрим разные
 									рукояти.</span></div>
 							<button class="preview__play-button btn circle">
@@ -1921,6 +2070,10 @@
 						<div class="youtube-video__list">
 							<div class="youtube-video__preview preview youtube-video__preview--small"><img class="preview__img"
 									src="./images/preview-small1.png" alt="">
+								<iframe style='display: none;' width="1519" height="585" src="https://www.youtube.com/embed/xQzKwPZEWLM"
+									title="Обзор Афганского казана. Что нужно знать перед покупкой" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
 								<div class="preview__title"><span>Обзор Афганского казана. Что нужно знать... </span></div>
 								<button class="preview__play-button btn circle">
 									<svg class="icon icon-play ">
@@ -1930,6 +2083,10 @@
 							</div>
 							<div class="youtube-video__preview preview youtube-video__preview--small"><img class="preview__img"
 									src="./images/preview-small2.png" alt="">
+								<iframe style='display: none;' width="1519" height="585" src="https://www.youtube.com/embed/3XPQwawq08A"
+									title="Какой выбрать казан? Обзор казана от эксперта" frameborder="0"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
 								<div class="preview__title"><span>Какой выбрать казан? Обзор казана от ...</span></div>
 								<button class="preview__play-button btn circle">
 									<svg class="icon icon-play ">
@@ -2022,12 +2179,12 @@
 						<div class="contacts__item">
 							<div class="contacts__link"><span>Уфа, Бакалинская, 90a</span></div>
 							<div class="contacts__text"><span>Ежедневно: 9:00-18:00</span><br><a class="contacts__text-link"
-									href="#">Посмотреть на карте</a></div>
+									href="https://yandex.ru/maps/org/kazan_market/64502394205/">Посмотреть на карте</a></div>
 						</div>
 						<div class="contacts__item">
 							<div class="contacts__link"><span>Уфа, Мустая Карима, 42</span></div>
 							<div class="contacts__text"><span>Ежедневно: 9:00-18:00</span><br><a class="contacts__text-link"
-									href="#">Посмотреть на карте</a></div>
+									href="https://yandex.ru/maps/org/kazan_market/104679465523/">Посмотреть на карте</a></div>
 						</div>
 						<div class="contacts__item">
 							<div class="contacts__link text-primary"><span>+7 927 236-75-27</span></div>
@@ -2037,7 +2194,7 @@
 						<div class="contacts__item">
 							<div class="contacts__link text-primary"><span>opt@kazanrb.ru</span></div>
 							<div class="contacts__text"><span>Для оптовых клиентов</span><br><a class="contacts__text-link"
-									href="#">Написать</a></div>
+									href="mailto:opt@kazanrb.ru">Написать</a></div>
 						</div>
 					</div>
 				</div>
@@ -2109,6 +2266,53 @@
 				</div>
 			</div>
 		</footer>
+		<div class="modal">
+			<div class="modal__checkout">
+				<div class="modal__price">
+					<button class="modal__item-remove-btn">
+						<svg class="icon icon-x ">
+							<use xlink:href="./images/sprite.svg#x"></use>
+						</svg>
+					</button>
+					<div class="modal__price-row modal__price-row--big">Товары в корзине</div>
+					<div class="modal__content">
+						<div class="left">
+							<div class="modal__list">
+								<div class="modal__item"><img src="./images/product.png" alt="">
+									<div class="modal__item-info">
+										<div class="d-flex flex-column">
+											<div class="modal__item-title">
+												<div class="d-flex flex-column">Казан 8 литров </div><span>(Плоское дно)</span>
+											</div>
+										</div>
+										<div class="d-flex flex-column">
+											<div class="modal__item-price"><span>4 100 ₽</span></div>
+											<div class="modal__item-old-price"><span>5 100 ₽</span></div>
+										</div>
+									</div>
+								</div>
+								<div class="modal__item"><img src="./images/product.png" alt="">
+									<div class="modal__item-info">
+										<div class="d-flex flex-column">
+											<div class="modal__item-title">
+												<div class="d-flex flex-column">Казан 8 литров </div><span>(Плоское дно)</span>
+											</div>
+										</div>
+										<div class="d-flex flex-column">
+											<div class="modal__item-price"><span>4 100 ₽</span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex flex-column">
+						<div class="modal__checkout-black"><span>Перейти в корзину</span></div>
+						<div class="modal__checkout-white"><span>Продолжить покупки</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="./js/main.js"></script>
 </body>

@@ -14,7 +14,7 @@
 	<meta name="msapplication-TileColor" content="#10cfe6">
 	<meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
 	<meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
-	<title>Корзина</title>
+	<title>Казан 6 литров (Круглое дно)</title>
 	<link rel="shortcut icon" href="/images/favicons/favicon.ico">
 	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
@@ -34,13 +34,13 @@
 	<link rel="icon" type="image/png" sizes="228x228" href="./images/favicons/coast-228x228.png">
 	<link rel="yandex-tableau-widget" href="./images/favicons/yandex-browser-manifest.json">
 	<link rel="stylesheet" href="./css/main.css">
-	<script src="./js/splide.min.js"> </script>
-	<script src="./js/shopping_cart_empty.js"> </script>
+	<script src="/js/splide.min.js"> </script>
+	<script src="./js/cart.js"></script>
 	<!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 </head>
 
-<body class="shopping-cart">
+<body class="product-page">
 	<div class="page">
 		<!--PAGE CONTENT-->
 		<div class="page__content">
@@ -487,199 +487,66 @@
 				<nav class="container" aria-label="breadcrumb">
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="/">Главная</a></li>
-						<li class="breadcrumb-item active" aria-current="page"><span>Корзина</span></li>
+						<li class="breadcrumb-item"><a href="#">Казаны чугунные</a></li>
+						<li class="breadcrumb-item"><a href="#">Круглое дно</a></li>
+						<li class="breadcrumb-item"><a href="#">Казан 6 литров (Круглое дно)</a></li>
+						<li class="breadcrumb-item active" aria-current="page"><span>Мой отзыв</span></li>
 					</ol>
 				</nav>
-				<div class="container">
-					<div class="page__title">
-						<h1>В вашей корзине пока нет товаров</h1>
-					</div>
-					<div class="shopping-cart__home-btn btn"><span>На главную</span></div>
-				</div>
-				<!--LIKE IT-->
-				<section class="products__section section container splide" id="like-it" aria-label="Вам может понравиться">
-					<div class="section__heading">
-						<h2>Вам может понравиться</h2>
-					</div>
-					<div class="splide__track section__content">
-						<div class="splide__list">
-							<div class="splide__slide">
-								<div class="product-card">
-									<div class="product-card__thumb"><img class="product-card__thumb_img" src="./images/product.png"
-											alt="" />
-										<div class="product-tag">
-											<div class="product-tag__discount"><span>Скидка 50%</span></div>
-											<div class="product-tag__new"> <span>Новинка</span></div>
+				<div class="product-page__container container">
+					<div class="reviews">
+						<div class="product-page__info product-page-reviews">
+							<h1>Мой отзыв о Казан 6 литров (Круглое дно)</h1>
+							<div class="product-page__top-row">
+								<div class="product-page__reviews d-flex flex-column">
+									<div class="product-page__in-stock-reviews"><span>Ваша оценка</span></div>
+									<div class="rating-stars reviews">
+										<div class="rating-stars--empty">
+											<svg class="icon icon-rating-stars">
+												<use xlink:href="./images/sprite.svg#rating-stars"></use>
+											</svg>
 										</div>
-									</div>
-									<div class="product-card__info">
-										<div class="product-card__title"> <span>Казан 8 литров (Плоское дно)</span></div>
-										<div class="product-card__info-bottom">
-											<div class="product-card__price"><span class="price">4100 ₽</span><span class="old-price">5 100
-													₽</span></div>
-											<div class="product-installment">
-												<div class="product-installment__icon circle">
-													<svg class="icon icon-percent ">
-														<use xlink:href="./images/sprite.svg#percent"></use>
-													</svg>
-												</div>
-												<div class="product-installment__text"><span>Купить </span><br
-														class="d-none d-md-block" /><span>в рассрочку</span></div>
-												<div class="product-installment__plan"> <span>от 468 ₽/мес</span></div>
-											</div>
-											<div class="product-card__button-group">
-												<div class="product-card__row">
-													<button class="product-card__one-click-buy button"><span>Купить </span><span
-															class="d-none d-sm-inline">в один клик</span></button>
-													<div class="product-card__like">
-														<button class="btn icon-btn">
-															<svg class="icon icon-heart ">
-																<use xlink:href="./images/sprite.svg#heart"></use>
-															</svg>
-														</button><span class="d-none d-sm-inline">79</span>
-													</div>
-												</div>
-												<button class="product-card__add-to-cart btn"><span class="d-none d-sm-block">Добавить в
-														корзину</span><span class="d-sm-none">В корзину</span></button>
-											</div>
+										<div class="rating-stars--full reviews" style="width:76%">
+											<svg class="icon icon-rating-stars reviews">
+												<use xlink:href="./images/sprite.svg#rating-stars"></use>
+											</svg>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="splide__slide">
-								<div class="product-card">
-									<div class="product-card__thumb"><img class="product-card__thumb_img" src="./images/product.png"
-											alt="" />
-										<div class="product-tag">
-											<div class="product-tag__discount"><span>Скидка 50%</span></div>
-											<div class="product-tag__new"> <span>Новинка</span></div>
-										</div>
-									</div>
-									<div class="product-card__info">
-										<div class="product-card__title"> <span>Казан 8 литров (Плоское дно)</span></div>
-										<div class="product-card__info-bottom">
-											<div class="product-card__price"><span class="price">4100 ₽</span><span class="old-price">5 100
-													₽</span></div>
-											<div class="product-installment">
-												<div class="product-installment__icon circle">
-													<svg class="icon icon-percent ">
-														<use xlink:href="./images/sprite.svg#percent"></use>
-													</svg>
-												</div>
-												<div class="product-installment__text"><span>Купить </span><br
-														class="d-none d-md-block" /><span>в рассрочку</span></div>
-												<div class="product-installment__plan"> <span>от 468 ₽/мес</span></div>
-											</div>
-											<div class="product-card__button-group">
-												<div class="product-card__row">
-													<button class="product-card__one-click-buy button"><span>Купить </span><span
-															class="d-none d-sm-inline">в один клик</span></button>
-													<div class="product-card__like">
-														<button class="btn icon-btn">
-															<svg class="icon icon-heart ">
-																<use xlink:href="./images/sprite.svg#heart"></use>
-															</svg>
-														</button><span class="d-none d-sm-inline">79</span>
-													</div>
-												</div>
-												<button class="product-card__add-to-cart btn"><span class="d-none d-sm-block">Добавить в
-														корзину</span><span class="d-sm-none">В корзину</span></button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="splide__slide">
-								<div class="product-card">
-									<div class="product-card__thumb"><img class="product-card__thumb_img" src="./images/product.png"
-											alt="" />
-										<div class="product-tag">
-											<div class="product-tag__discount"><span>Скидка 50%</span></div>
-											<div class="product-tag__new"> <span>Новинка</span></div>
-										</div>
-									</div>
-									<div class="product-card__info">
-										<div class="product-card__title"> <span>Казан 8 литров (Плоское дно)</span></div>
-										<div class="product-card__info-bottom">
-											<div class="product-card__price"><span class="price">4100 ₽</span><span class="old-price">5 100
-													₽</span></div>
-											<div class="product-installment">
-												<div class="product-installment__icon circle">
-													<svg class="icon icon-percent ">
-														<use xlink:href="./images/sprite.svg#percent"></use>
-													</svg>
-												</div>
-												<div class="product-installment__text"><span>Купить </span><br
-														class="d-none d-md-block" /><span>в рассрочку</span></div>
-												<div class="product-installment__plan"> <span>от 468 ₽/мес</span></div>
-											</div>
-											<div class="product-card__button-group">
-												<div class="product-card__row">
-													<button class="product-card__one-click-buy button"><span>Купить </span><span
-															class="d-none d-sm-inline">в один клик</span></button>
-													<div class="product-card__like">
-														<button class="btn icon-btn">
-															<svg class="icon icon-heart ">
-																<use xlink:href="./images/sprite.svg#heart"></use>
-															</svg>
-														</button><span class="d-none d-sm-inline">79</span>
-													</div>
-												</div>
-												<button class="product-card__add-to-cart btn"><span class="d-none d-sm-block">Добавить в
-														корзину</span><span class="d-sm-none">В корзину</span></button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="splide__slide">
-								<div class="product-card">
-									<div class="product-card__thumb"><img class="product-card__thumb_img" src="./images/product.png"
-											alt="" />
-										<div class="product-tag">
-											<div class="product-tag__discount"><span>Скидка 50%</span></div>
-											<div class="product-tag__new"> <span>Новинка</span></div>
-										</div>
-									</div>
-									<div class="product-card__info">
-										<div class="product-card__title"> <span>Казан 8 литров (Плоское дно)</span></div>
-										<div class="product-card__info-bottom">
-											<div class="product-card__price"><span class="price">4100 ₽</span><span class="old-price">5 100
-													₽</span></div>
-											<div class="product-installment">
-												<div class="product-installment__icon circle">
-													<svg class="icon icon-percent ">
-														<use xlink:href="./images/sprite.svg#percent"></use>
-													</svg>
-												</div>
-												<div class="product-installment__text"><span>Купить </span><br
-														class="d-none d-md-block" /><span>в рассрочку</span></div>
-												<div class="product-installment__plan"> <span>от 468 ₽/мес</span></div>
-											</div>
-											<div class="product-card__button-group">
-												<div class="product-card__row">
-													<button class="product-card__one-click-buy button"><span>Купить </span><span
-															class="d-none d-sm-inline">в один клик</span></button>
-													<div class="product-card__like">
-														<button class="btn icon-btn">
-															<svg class="icon icon-heart ">
-																<use xlink:href="./images/sprite.svg#heart"></use>
-															</svg>
-														</button><span class="d-none d-sm-inline">79</span>
-													</div>
-												</div>
-												<button class="product-card__add-to-cart btn"><span class="d-none d-sm-block">Добавить в
-														корзину</span><span class="d-sm-none">В корзину</span></button>
-											</div>
-										</div>
-									</div>
-								</div>
+							<div class="product-page__in-stock-reviews flex-column" style="margin-top: 40px;"><span>Ваш отзыв</span>
 							</div>
 						</div>
+						<form class="d-flex flex-column">
+							<div class="auth__form-field">
+								<label for="text">Текст отзыва</label>
+							</div>
+							<div>
+								<textarea class="reviews__area" name="text"></textarea>
+							</div>
+							<div class="auth__form-field">
+								<label for="text">Фотографии товара</label>
+							</div>
+							<div class="upload-container">
+								<img id="upload-image" src="./images/foto.svg">
+								<div>
+									<input id="file-input" type="file" name="file" multiple>
+									<label for="file-input" class="file__input-text--big">Перетащите фото сюда, или <span
+											class="file__input-text">выберите на
+											компьютере</span></label>
+									<label for="file-input" class="file__input-text--small">Добавить фото</label>
+								</div>
+							</div>
+							<label class="agreement" for="user-agreement">
+								<input id="user-agreement" type="checkbox" name="user-agreement"><span class="checkmark"></span><span>Я
+									прочитал и согласен с </span><a href="#"> Пользовательским соглашением </a><span>и </span><a
+									href="#">Политикой
+									конфиденциальности</a>
+							</label>
+							<button class="reviews__checkout-black"><span>Оставить отзыв</span></button>
+						</form>
 					</div>
-					<button class="show-more btn d-sm-none"><span>Показать еще товары</span></button>
-				</section>
-				<!--END LIKE IT-->
+				</div>
 			</main>
 		</div>
 		<!--END PAGE CONTENT-->
@@ -772,7 +639,7 @@
 				</div>
 				<div class="footer__bottom">
 					<div class="copyright"><span>© Казан Маркет, 2021</span></div>
-					<div class="payment-methods"><img src="./images//payment-methods.png" alt=""></div>
+					<div class="payment-methods"><img src="../../images/payment-methods.png" alt=""></div>
 					<div class="privacy-policy"><a href="#">Политика конфиденциальности </a></div>
 				</div>
 			</div>
