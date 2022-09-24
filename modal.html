@@ -13,48 +13,87 @@
 
 <body>
 	<div class="modal">
-		<div class="modal__checkout">
-			<div class="modal__price">
+		<div class="modal__noneproduct">
+			<div class="modal__distance-row">
 				<button class="modal__item-remove-btn">
 					<svg class="icon icon-x ">
 						<use xlink:href="./images/sprite.svg#x"></use>
 					</svg>
 				</button>
-				<div class="modal__price-row modal__price-row--big">Товары в корзине</div>
+				<div class="modal__title">Нашли товар дешевле?</div>
+				<div class="modal__subtitle">Пришлите нам ссылку на товар в другом магазине, мы свяжемся
+					с вами и сделаем более выгодное предложение</div>
 				<div class="modal__content">
 					<div class="left">
-						<div class="modal__list">
-							<div class="modal__item"><img src="./images/product.png" alt="">
-								<div class="modal__item-info">
-									<div class="d-flex flex-column">
-										<div class="modal__item-title">
-											<div class="d-flex flex-column">Казан 8 литров </div><span>(Плоское дно)</span>
-										</div>
-									</div>
-									<div class="d-flex flex-column">
-										<div class="modal__item-price"><span>4 100 ₽</span></div>
-										<div class="modal__item-old-price"><span>5 100 ₽</span></div>
-									</div>
-								</div>
+						<div class="modal__form">
+							<div class="modal__form-field">
+								<label for="text">Ссылка на товар в другом магазине</label>
+								<input id="text-modal" type="text" name="text">
 							</div>
-							<div class="modal__item"><img src="./images/product.png" alt="">
-								<div class="modal__item-info">
-									<div class="d-flex flex-column">
-										<div class="modal__item-title">
-											<div class="d-flex flex-column">Казан 8 литров </div><span>(Плоское дно)</span>
-										</div>
-									</div>
-									<div class="d-flex flex-column">
-										<div class="modal__item-price"><span>4 100 ₽</span></div>
-									</div>
-								</div>
+							<div class="modal__form-field">
+								<label for="tel">Ваш номер телефона</label>
+								<input id="modal-tel" type="tel" name="tel">
 							</div>
 						</div>
 					</div>
-
+					<label class="modal__agreement" for="user-agreement">
+						<input id="user-agreement" type="checkbox" name="user-agreement"><span class="checkmark"></span><span>Я
+							прочитал и согласен с </span><a href="#"> Пользовательским соглашением </a><span>и </span><a
+							href="#">Политикой
+							конфиденциальности</a>
+					</label>
+					<div class="modal__button"><span>ОТПРАВИТЬ</span></div>
 				</div>
-				<div class="modal__checkout-black"><span>Перейти в корзину</span></div>
-				<div class="modal__checkout-white"><span>Продолжить покупки</span></div>
+			</div>
+		</div>
+	</div>
+	<div class="modal__thanks">
+		<div class="modal__noneproduct">
+			<div class="modal__distance-row-thanks">
+				<button class="modal__item-remove-btn">
+					<svg class="icon icon-x ">
+						<use xlink:href="./images/sprite.svg#x"></use>
+					</svg>
+				</button>
+				<div class="modal__thanks-check">
+					<img src="./images/chekout.svg" alt="">
+					<div class="modal__title-thanks">Спасибо, ваша заявка
+						успешно отправлена!</div>
+					<div class="modal__button"><span>ОТЛИЧНО!</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal__admission">
+		<div class="modal__noneproduct">
+			<div class="modal__distance-row">
+				<button class="modal__item-remove-btn">
+					<svg class="icon icon-x ">
+						<use xlink:href="./images/sprite.svg#x"></use>
+					</svg>
+				</button>
+				<div class="modal__title">Уведомление о поступлении
+					товара в магазин</div>
+				<div class="modal__subtitle">Оставьте свой адрес электронной почты,
+					на который мы пришлем уведомление
+					о поступлении товара</div>
+				<div class="modal__content">
+					<div class="left">
+						<div class="modal__form">
+							<div class="modal__form-field">
+								<label for="email">Электронная почта</label>
+								<input id="modal-email" type="email" name="email">
+							</div>
+						</div>
+					</div>
+					<label class="modal__agreement" for="user-agreement">
+						<input id="user-agreement" type="checkbox" name="user-agreement"><span class="checkmark"></span><span>Я
+							прочитал и согласен с </span><a href="#"> Пользовательским соглашением </a><span>и </span><a
+							href="#">Политикой
+							конфиденциальности</a>
+					</label>
+					<div class="modal__button"><span>ОТПРАВИТЬ</span></div>
+				</div>
 			</div>
 		</div>
 	</div>
