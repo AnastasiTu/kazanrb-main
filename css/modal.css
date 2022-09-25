@@ -2,8 +2,6 @@
 .modal__admission {
 	position: relative;
 	display: flex;
-	justify-content: start;
-	align-items: flex-start;
 	width: 540px;
 	height: 556px;
 	background: #FFFFFF;
@@ -11,6 +9,12 @@
 	color: #000;
 	border: 1px solid #000;
 	margin-bottom: 10px;
+}
+
+.modal__center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .modal__thanks {
@@ -70,7 +74,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 28.5vw;
+	width: 440px;
 	height: 56px;
 	border-radius: 5px;
 	font-size: 1.0625rem;
@@ -80,8 +84,7 @@
 }
 
 .modal__distance-row {
-	margin: 30px;
-	padding-left: 16px;
+	margin: 50px;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
@@ -99,6 +102,16 @@
 
 
 .modal__title {
+	justify-content: start;
+	align-items: flex-start;
+	margin-bottom: 10px;
+	font-size: 1.98rem;
+	line-height: 128%;
+	font-weight: bold;
+	color: #000000;
+}
+
+.modal__title-nonepro {
 	justify-content: start;
 	align-items: flex-start;
 	margin-top: 19px;
@@ -145,6 +158,7 @@
 	height: 46px;
 	background: #FFFFFF;
 	border: 1px solid #B4B4B4;
+	font-size: 1.5rem;
 	border-radius: 5px;
 	margin-top: 5px;
 	margin-bottom: 20px;
@@ -228,7 +242,7 @@
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.modal {
-		width: 360px;
+		width: 540px;
 		height: 575px;
 	}
 }
